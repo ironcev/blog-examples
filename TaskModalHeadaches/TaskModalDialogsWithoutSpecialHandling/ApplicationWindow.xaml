@@ -1,0 +1,19 @@
+﻿<Window x:Class="TheHumbleProgrammer.TaskModalDialogsWithoutSpecialHandling.ApplicationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" MinWidth="300" MinHeight="200">
+    <StackPanel>
+        <Button Click="OnOpenWpfModalDialogWithoutOwnerClick">Open WPF modal dialog without owner.</Button>
+        <Button Click="OnOpenWpfModalDialogWithMeAsOwnerClick">Open WPF modal dialog with me as owner.</Button>
+
+        <Button Click="OnOpenStandardWpfMessageBoxWithoutOwnerClick" Margin="0, 20, 0, 0">Open standard WPF message box without owner.</Button>
+        <Button Click="OnOpenStandardWinFormsMessageBoxWithoutOwnerClick">Open standard WinForms message box without owner.</Button>
+
+        <Button Click="OnOpenStandardWpfDialogClick" Margin="0, 20, 0, 0">Open standard WPF dialog.</Button>
+        <Button Click="OnOpenStandardWinFormsDialogClick">Open standard WinForms dialog.</Button>
+
+        
+        <Button Click="OnOpenTaskModalWpfMessageBoxClick" Margin="0, 20, 0, 0">Open task-modal WPF message box (this throws exception!).</Button>
+        <Button Click="OnOpenTaskModalWinFormsMessageBoxClick">Open task-modal WPF message box.</Button>
+    </StackPanel>
+</Window>
