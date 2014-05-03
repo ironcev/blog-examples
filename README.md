@@ -11,5 +11,5 @@ Code snippets and examples used on [thehumbleprogrammer.com](http://www.thehumbl
 
 Here is the complete list of snippets and projects, ordered alphabetically by blog post title:
 
-- [Idioms.Option&lt;T&gt;](http://thehumbleprogrammer.com/idioms-option) ([code snippets](IdiomsOptionT))
+- [Option Idiom](http://thehumbleprogrammer.com/option-idiom) ([code snippets](OptionIdiom))
 - [Task-Modal Headaches](http://thehumbleprogrammer.com/task-modal-headaches) ([sample project](TaskModalHeadaches))
