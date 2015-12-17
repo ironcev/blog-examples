@@ -11,7 +11,8 @@ Code snippets, examples, and sample projects used on [thehumbleprogrammer.com](h
 
 Here is the complete list of snippets and projects, ordered alphabetically by blog post title:
 
-- [Clarke's Third Law Exception - Step by Step](http://thehumbleprogrammer.com/clarkes-third-law-exception-step-by-step) ([code snippets](ClarkesThirdLawExceptionStepByStep))
-- [His Majesty, Hangul the Filler](http://thehumbleprogrammer.com/his-majesty-hangul-the-filler) ([code snippets](HisMajestyHangulTheFiller))
-- [Option Idiom](http://thehumbleprogrammer.com/option-idiom) ([code snippets](OptionIdiom))
-- [Task-Modal Headaches](http://thehumbleprogrammer.com/task-modal-headaches) ([sample project](TaskModalHeadaches))
+- [Clarke's Third Law Exception - Step by Step](http://thehumbleprogrammer.com/clarkes-third-law-exception-step-by-step/) ([code snippets](ClarkesThirdLawExceptionStepByStep))
+- [His Majesty, Hangul the Filler](http://thehumbleprogrammer.com/his-majesty-hangul-the-filler/) ([code snippets](HisMajestyHangulTheFiller))
+- [No More Hidden Allocations, Please!](http://thehumbleprogrammer.com/no-more-hidden-allocations-please/) ([code snippets](NoMoreHiddenAllocationsPlease))
+- [Option Idiom](http://thehumbleprogrammer.com/option-idiom/) ([code snippets](OptionIdiom))
+- [Task-Modal Headaches](http://thehumbleprogrammer.com/task-modal-headaches/) ([sample project](TaskModalHeadaches))
