@@ -1,11 +1,9 @@
-#HumbleXamples
+# HumbleXamples
 
 Code snippets, examples, and sample projects used on [thehumbleprogrammer.com](http://www.thehumbleprogrammer.com).
 
-##Write Some Code
-> Write some code! Write some code!
-
-> Once... at my job interview
+## Write Some Code
+> Write some code! Write some code!<br/>&nbsp;&nbsp;&nbsp;&nbsp;Once... at my job interview
 
 *HumbleXamples* (pronounced: ˈhʌmbəlgzæmpəlz) contain code snippets, examples, and sample projects used in blog posts posted on [thehumbleprogrammer.com](http://www.thehumbleprogrammer.com).
 
