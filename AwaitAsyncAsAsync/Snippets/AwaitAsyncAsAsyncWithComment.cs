@@ -1,6 +1,6 @@
 ﻿public class AwaitAsyncAsAsyncWithComment
 {
-    void CanYouFixMe()
+    void CanYouMakeMeCompilable()
     {
         /*
         var var = await async as async;

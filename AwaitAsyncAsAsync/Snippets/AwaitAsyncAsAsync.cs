@@ -10,7 +10,7 @@ namespace Snippets
     public class AwaitAsyncAsAsync
     {
         async
-        void CanYouFixMe()
+        void CanYouMakeMeCompilable()
         {
             Task<Task<int>> async = null;
             var var = await async as async;
