@@ -1,5 +1,4 @@
 # HumbleXamples
-
 Code snippets, examples, and sample projects used on [thehumbleprogrammer.com](http://www.thehumbleprogrammer.com).
 
 ## Write Some Code
@@ -15,3 +14,6 @@ Here is the complete list of snippets and projects, ordered alphabetically by th
 - [No More Hidden Allocations, Please!](http://thehumbleprogrammer.com/no-more-hidden-allocations-please/) ([code snippets](NoMoreHiddenAllocationsPlease))
 - [Option Idiom](http://thehumbleprogrammer.com/option-idiom/) ([code snippets](OptionIdiom))
 - [Task-Modal Headaches](http://thehumbleprogrammer.com/task-modal-headaches/) ([sample project](TaskModalHeadaches))
+
+## License
+All the source code is licensed under the [MIT license](LICENSE.txt).
