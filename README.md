@@ -16,4 +16,8 @@ Here is the complete list of snippets and projects, ordered alphabetically by th
 - [Task-Modal Headaches](http://thehumbleprogrammer.com/task-modal-headaches/) ([sample project](TaskModalHeadaches))
 
 ## License
-All the source code is licensed under the [MIT license](LICENSE.txt).
+*HumbleXamples* are neither licensed nor copyrighted. You can do whatever you want with them as long as you don't say you created them yourself ;-) In case of (re)use, providing a link to this GitHub repository would be highly appreciated, but it's not mandatory.
+
+<p align="center">
+    <a href="http://mimiandeunice.com/"><img src="without-copyright-law.png" alt="Mimi & Eunice - Without Copyright Law?" style="max-width:100%;"></a>
+</p>
