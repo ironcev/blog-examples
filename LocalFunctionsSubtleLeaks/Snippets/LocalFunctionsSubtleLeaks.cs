@@ -8,8 +8,8 @@ namespace Snippets
     {
         void Method()
         {
-            int a = 0;
-            WriteLine(a);
+            int localVariable = 0;
+            WriteLine(localVariable);
 
             LocalFunction();
 
@@ -24,44 +24,44 @@ namespace Snippets
     {
         void Method()
         {
-            int a = 0;
-            string s = a.ToString();
+            int localVariable = 0;
+            string otherLocalVariable = localVariable.ToString();
 
             LocalFunction();
-            LocalFunctionWithParameters(a, s);
+            LocalFunctionWithParameters(localVariable, otherLocalVariable);
 
             void LocalFunction()
             {
-                WriteLine($"I use local variables {a} and {s}.");
+                WriteLine($"I use {localVariable} and {otherLocalVariable}.");
             }
 
             void LocalFunctionWithParameters(int number, string text)
             {
-                WriteLine($"I use local variables {a} and {s}.");
+                WriteLine($"I use {localVariable} and {otherLocalVariable}.");
             }
         }
     }
 
     class LocalFunctionThatUseLocalVariablesAndClassInstanceMembers
     {
-        private int _intField = 0;
-        public string StringProperty => "";
-        int SomeInstanceMethod() => 0;
+        private int _instanceField = 0;
+        public string InstanceProperty => "";
+        int InstanceMethod() => 0;
 
         void Method()
         {
-            int a = 0;
-            string s = a.ToString();
-            WriteLine(s);
+            int localVariable = 0;
+            string otherLocalVariable = localVariable.ToString();
+            WriteLine(otherLocalVariable);
 
             LocalFunction();
 
             void LocalFunction()
             {
-                WriteLine($"I use local variables {a} and {s}.");
-                WriteLine($"I use instance field {_intField}.");
-                WriteLine($"I use instance property {StringProperty}.");
-                WriteLine($"I call instance method {SomeInstanceMethod()}.");
+                WriteLine($"I use {localVariable} and {otherLocalVariable}.");
+                WriteLine($"I use {_instanceField}.");
+                WriteLine($"I use {InstanceProperty}.");
+                WriteLine($"I call {InstanceMethod()}.");
             }
         }
     }
@@ -70,15 +70,15 @@ namespace Snippets
     {
         void Method()
         {
-            int a = 0;
-            string s = a.ToString();
-            WriteLine(s);
+            int localVariable = 0;
+            string otherLocalVariable = localVariable.ToString();
+            WriteLine(otherLocalVariable);
 
             Enumerable.Range(0, 10).Where(i => !LocalFunction());
 
             bool LocalFunction()
             {
-                WriteLine($"I use local variables {a} and {s}.");
+                WriteLine($"I use {localVariable} and {otherLocalVariable}.");
                 return true;
             }
         }
@@ -88,15 +88,15 @@ namespace Snippets
     {
         void Method()
         {
-            int a = 0;
-            string s = a.ToString();
-            WriteLine(s);
+            int localVariable = 0;
+            string otherLocalVariable = localVariable.ToString();
+            WriteLine(otherLocalVariable);
 
             LocalFunction();
 
             void LocalFunction()
             {
-                WriteLine($"I use only the local variable {a}.");
+                WriteLine($"I use only the local variable {localVariable}.");
             }
         }
     }
@@ -105,16 +105,16 @@ namespace Snippets
     {
         void Method()
         {
-            int a = 0;
-            string s = a.ToString();
+            int localVariable = 0;
+            string otherLocalVariable = localVariable.ToString();
 
-            Action lambdaThatUsesOtherLocalVariable =() => WriteLine(s);
+            Action lambdaThatUsesOtherLocalVariable =() => WriteLine(otherLocalVariable);
 
             LocalFunction();
 
             void LocalFunction()
             {
-                WriteLine($"I use only the local variable {a}.");
+                WriteLine($"I use only the local variable {localVariable}.");
             }
         }
     }
