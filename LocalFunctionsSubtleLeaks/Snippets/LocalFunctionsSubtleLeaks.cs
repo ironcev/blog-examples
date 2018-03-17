@@ -4,7 +4,7 @@ using static System.Console;
 
 namespace Snippets
 {
-    class LocalFunctionThatDoNotUseLocalVariables
+    class LocalFunctionsThatDoNotUseLocalVariables
     {
         void Method()
         {
@@ -20,7 +20,7 @@ namespace Snippets
         }
     }
 
-    class LocalFunctionThatUseLocalVariables
+    class LocalFunctionsThatUseLocalVariables
     {
         void Method()
         {
@@ -42,7 +42,7 @@ namespace Snippets
         }
     }
 
-    class LocalFunctionThatUseLocalVariablesAndClassInstanceMembers
+    class LocalFunctionsThatUseLocalVariablesAndClassInstanceMembers
     {
         private int _instanceField = 0;
         public string InstanceProperty => "";
@@ -66,7 +66,7 @@ namespace Snippets
         }
     }
 
-    class LocalFunctionThatUseLocalVariablesAndIsUsedInLambdaExpressions
+    class LocalFunctionsThatUseLocalVariablesAndIsUsedInLambdaExpressions
     {
         void Method()
         {
@@ -84,7 +84,7 @@ namespace Snippets
         }
     }
 
-    class LocalFunctionThatUseOnlySomeLocalVariables
+    class LocalFunctionsThatUseOnlySomeLocalVariables
     {
         void Method()
         {
@@ -101,7 +101,7 @@ namespace Snippets
         }
     }
 
-    class LocalFunctionThatUseLocalVariablesDifferentThanThoseUsedInALambdaExpression
+    class LocalFunctionsThatUseLocalVariablesDifferentThanThoseUsedInALambdaExpression
     {
         void Method()
         {
