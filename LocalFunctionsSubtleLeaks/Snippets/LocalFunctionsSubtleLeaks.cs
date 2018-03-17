@@ -43,6 +43,42 @@ namespace Snippets
         }
     }
 
+    class LocalFunctionsThatUseOnlySomeLocalVariables
+    {
+        void Method()
+        {
+            int localVariable = 0;
+            string otherLocalVariable = localVariable.ToString();
+            WriteLine(otherLocalVariable);
+
+            LocalFunction();
+
+            void LocalFunction()
+            {
+                WriteLine($"I use only the local variable {localVariable}.");
+            }
+        }
+    }
+
+    class LocalFunctionsThatUseOnlyClassInstanceMembers
+    {
+        private int _instanceField = 0;
+        public string InstanceProperty => "";
+        int InstanceMethod() => 0;
+
+        void Method()
+        {
+            LocalFunction();
+
+            void LocalFunction()
+            {
+                WriteLine($"I use {_instanceField}.");
+                WriteLine($"I use {InstanceProperty}.");
+                WriteLine($"I call {InstanceMethod()}.");
+            }
+        }
+    }
+
     class LocalFunctionsThatUseLocalVariablesAndClassInstanceMembers
     {
         private int _instanceField = 0;
@@ -67,7 +103,7 @@ namespace Snippets
         }
     }
 
-    class LocalFunctionsThatUseLocalVariablesAndIsUsedInLambdaExpressions
+    class LocalFunctionsThatUseLocalVariablesAndAreUsedInLambdaExpressions
     {
         void Method()
         {
@@ -85,23 +121,6 @@ namespace Snippets
         }
     }
 
-    class LocalFunctionsThatUseOnlySomeLocalVariables
-    {
-        void Method()
-        {
-            int localVariable = 0;
-            string otherLocalVariable = localVariable.ToString();
-            WriteLine(otherLocalVariable);
-
-            LocalFunction();
-
-            void LocalFunction()
-            {
-                WriteLine($"I use only the local variable {localVariable}.");
-            }
-        }
-    }
-
     class LocalFunctionsThatUseLocalVariablesDifferentThanThoseUsedInALambdaExpression
     {
         void Method()
@@ -109,7 +128,7 @@ namespace Snippets
             int localVariable = 0;
             string otherLocalVariable = localVariable.ToString();
 
-            Action lambdaThatUsesOtherLocalVariable =() => WriteLine(otherLocalVariable);
+            Action lambdaThatUsesOtherLocalVariable = () => WriteLine(otherLocalVariable);
 
             LocalFunction();
 

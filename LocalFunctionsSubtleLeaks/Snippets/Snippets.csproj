@@ -35,6 +35,7 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LocalFunctionsSubtleLeaksCompilerGenerated.cs" />
     <Compile Include="LocalFunctionsSubtleLeaks.cs" />
   </ItemGroup>
   <ItemGroup>
