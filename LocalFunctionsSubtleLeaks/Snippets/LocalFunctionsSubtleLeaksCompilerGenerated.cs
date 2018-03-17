@@ -271,4 +271,39 @@ namespace Snippets.CompilerGenerated
             WriteLine($"I use only the local variable {ptr.localVariable}.");
         }
     }
+
+    // See: https://sharplab.io/#v2:CYLg1APgAgDABFAjAbgLAChYMQNmwOgGEB7AOwGdiAbAUzXQygCY4BlAVwCMAXWgWRoBbYgCcAngBkaAQwDWGAN4Y4KuAAcRASwBu07jQQsASjUrsRAYxoARIdNLBNpAOaEq08uTgK4AXwzKqkgsAtwAFsTAABQAlIEqSuiqyXC6InAipsTmVraC9o4uAPKcAFY0FtxwALxwpDQA7nAmZpY2dg5Oru6esfQpQYjwlII0EsQW0lQAatJa0py0NXAARCv08SnBcO6CnMDSACphegCq5KasxKPjkzNzmgtLtbE1AHxwAOpa+hJONFERmMJlNZvNFjQYhskgM4LcplAAKzcTRkY5nC7kY40FrZNp5ApdErlSp9AIwgZQADsO2kewO6O450u12BdzBjwh0NhCAALHCQVQkSi0ScmZjsbicu18p1imUKtxYptkokeclvppfv8ogASFYASTg7AucHCBgUmVauQ6hWcxMVvnwKyhKtU/gpfgwviAA===
+    class SubtleMemoryLeak
+    {
+        private class ResourceDemandingClass { }
+
+        [CompilerGenerated]
+        private sealed class Closure
+        {
+            public string someLocalVariable;
+            public ResourceDemandingClass resourceDemandingObject;
+            internal void Lambda()
+            {
+                WriteLine(this.someLocalVariable);
+            }
+
+            internal void LocalFunctionThatUsesTheResourceDemandingObject()
+            {
+                WriteLine($"I use the {this.resourceDemandingObject}.");
+            }
+        }
+
+        private Action Method()
+        {
+            Closure closure = new Closure();
+            closure.resourceDemandingObject = new ResourceDemandingClass();
+            closure.someLocalVariable = "";
+
+            Action result = new Action(closure.Lambda);
+
+            closure.LocalFunctionThatUsesTheResourceDemandingObject();
+
+            return result;
+        }
+    }
 }

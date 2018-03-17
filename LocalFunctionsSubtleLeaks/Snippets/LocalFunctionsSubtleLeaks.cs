@@ -138,4 +138,26 @@ namespace Snippets
             }
         }
     }
+
+    class SubtleMemoryLeak
+    {
+        private class ResourceDemandingClass { }
+
+        Action Method()
+        {
+            var resourceDemandingObject = new ResourceDemandingClass();
+            string someLocalVariable = "";
+
+            Action lambdaThatUsesSomeLocalVariable = () => WriteLine(someLocalVariable);
+
+            LocalFunctionThatUsesTheResourceDemandingObject();
+
+            return lambdaThatUsesSomeLocalVariable;
+
+            void LocalFunctionThatUsesTheResourceDemandingObject()
+            {
+                WriteLine($"I use the {resourceDemandingObject}.");
+            }
+        }
+    }
 }
