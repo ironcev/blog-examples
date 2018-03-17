@@ -4,7 +4,7 @@ using static System.Console;
 
 namespace Snippets
 {
-    class LocalFunctionsThatDoNotUseLocalVariables
+    class LocalFunctionsThatDoNotUseLocalVariablesAndClassInstanceMembers
     {
         void Method()
         {
@@ -16,6 +16,7 @@ namespace Snippets
             void LocalFunction()
             {
                 WriteLine("I do not use local variables.");
+                WriteLine("I do not use class instance members.");
             }
         }
     }
