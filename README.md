@@ -11,6 +11,7 @@ Here is the complete list of snippets and projects, ordered alphabetically by th
 - Await Async As Async (still to be written) ([code snippets](AwaitAsyncAsAsync))
 - [Clarke's Third Law Exception - Step by Step](http://thehumbleprogrammer.com/clarkes-third-law-exception-step-by-step/) ([code snippets](ClarkesThirdLawExceptionStepByStep))
 - [His Majesty, Hangul the Filler](http://thehumbleprogrammer.com/his-majesty-hangul-the-filler/) ([code snippets](HisMajestyHangulTheFiller))
+- [Local Functions, Subtle Leaks](http://thehumbleprogrammer.com/local-functions-subtle-leaks/) ([code snippets](LocalFunctionsSubtleLeaks))
 - [No More Hidden Allocations, Please!](http://thehumbleprogrammer.com/no-more-hidden-allocations-please/) ([code snippets](NoMoreHiddenAllocationsPlease))
 - [Option Idiom](http://thehumbleprogrammer.com/option-idiom/) ([code snippets](OptionIdiom))
 - [Task-Modal Headaches](http://thehumbleprogrammer.com/task-modal-headaches/) ([sample project](TaskModalHeadaches))
