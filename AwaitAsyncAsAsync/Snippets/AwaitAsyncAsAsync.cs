@@ -2,12 +2,12 @@
 
 namespace Snippets
 {
-    public class async : Task<int>
+    class async : Task<int>
     {
         public async() : base(() => 0) { }
     }
 
-    public class AwaitAsyncAsAsync
+    class AwaitAsyncAsAsync
     {
         async
         void CanYouMakeMeCompilable()

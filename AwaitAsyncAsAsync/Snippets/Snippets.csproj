@@ -40,9 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AsyncAsyncAsyncAsyncAsync.cs" />
     <Compile Include="AwaitAsyncAsAsyncWithComment.cs" />
-    <Compile Include="Var.cs" />
     <Compile Include="AwaitAsyncAsAsyncRobertsSolution.cs" />
     <Compile Include="AwaitAsyncAsAsync.cs" />
   </ItemGroup>
