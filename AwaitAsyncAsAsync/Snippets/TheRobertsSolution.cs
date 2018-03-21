@@ -2,7 +2,7 @@
 
 using async = System.Threading.Tasks.Task;
 
-class AwaitAsyncAsAsyncRobertsSolution
+class TheRobertsSolution
 {
     async
     void CanYouMakeMeCompilable()

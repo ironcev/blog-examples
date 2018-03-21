@@ -1,4 +1,4 @@
-﻿class AwaitAsyncAsAsyncWithComment
+﻿class TheNotSoObviousObviousSolution
 {
     void CanYouMakeMeCompilable()
     {

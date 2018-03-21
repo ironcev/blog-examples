@@ -1,6 +1,6 @@
 ﻿namespace SnippetsButAgainABitDifferentToAvoidNameClashing
 {
-    class ContextualKeywordVar
+    class VarContextualKeyword
     {
         int var() => 0;
         int var(int var) => 0;

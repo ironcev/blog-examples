@@ -40,10 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AwaitAsyncAsAsyncWithComment.cs" />
-    <Compile Include="AwaitAsyncAsAsyncRobertsSolution.cs" />
-    <Compile Include="AwaitAsyncAsAsync.cs" />
-    <Compile Include="ContextualKeywordVar.cs" />
+    <Compile Include="TheNotSoObviousObviousSolution.cs" />
+    <Compile Include="TheRobertsSolution.cs" />
+    <Compile Include="ANonTrivialSolution.cs" />
+    <Compile Include="VarContextualKeyword.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />

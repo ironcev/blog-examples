@@ -7,7 +7,7 @@ namespace Snippets
         public async() : base(() => 0) { }
     }
 
-    class AwaitAsyncAsAsync
+    class ANonTrivialSolution
     {
         async
         void CanYouMakeMeCompilable()
