@@ -43,6 +43,7 @@
     <Compile Include="AwaitAsyncAsAsyncWithComment.cs" />
     <Compile Include="AwaitAsyncAsAsyncRobertsSolution.cs" />
     <Compile Include="AwaitAsyncAsAsync.cs" />
+    <Compile Include="ContextualKeywordVar.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
