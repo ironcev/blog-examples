@@ -9,6 +9,7 @@ Code snippets, examples, and sample projects used on [thehumbleprogrammer.com](h
 Here is the complete list of snippets and projects, ordered alphabetically by the blog post title:
 
 - [Await Async As Async](http://thehumbleprogrammer.com/await-async-as-async/) ([code snippets](AwaitAsyncAsAsync))
+- [Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo](http://thehumbleprogrammer.com/buffalo-buffalo-buffalo-buffalo-buffalo-buffalo-buffalo-buffalo/) ([code snippets](BuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffalo))
 - [Clarke's Third Law Exception - Step by Step](http://thehumbleprogrammer.com/clarkes-third-law-exception-step-by-step/) ([code snippets](ClarkesThirdLawExceptionStepByStep))
 - [His Majesty, Hangul the Filler](http://thehumbleprogrammer.com/his-majesty-hangul-the-filler/) ([code snippets](HisMajestyHangulTheFiller))
 - [Local Functions, Subtle Leaks](http://thehumbleprogrammer.com/local-functions-subtle-leaks/) ([code snippets](LocalFunctionsSubtleLeaks))
