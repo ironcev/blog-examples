@@ -16,6 +16,7 @@ Here is the complete list of snippets and projects, ordered alphabetically by th
 - [No More Hidden Allocations, Please!](http://thehumbleprogrammer.com/no-more-hidden-allocations-please/) ([code snippets](NoMoreHiddenAllocationsPlease))
 - [Option Idiom](http://thehumbleprogrammer.com/option-idiom/) ([code snippets](OptionIdiom))
 - [Task-Modal Headaches](http://thehumbleprogrammer.com/task-modal-headaches/) ([sample project](TaskModalHeadaches))
+- [The Variform Var](http://thehumbleprogrammer.com/the-variform-var/) ([code snippets](TheVariformVar))
 
 ## License
 *HumbleXamples* are neither licensed nor copyrighted. You can do whatever you want with them as long as you don't say you created them yourself ;-) In case of (re)use, providing a link to this GitHub repository would be highly appreciated, but it's not mandatory.
