@@ -1,4 +1,4 @@
-﻿public class var
+﻿class var
 {
     public static implicit operator var(string text)
     {
@@ -6,7 +6,7 @@
     }
 }
 
-public class TheVariformVar
+class TheVariformVar
 {
     public void Method()
     {
