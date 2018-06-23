@@ -20,8 +20,8 @@ Here is the complete list of snippets and projects, ordered alphabetically by th
 - [The Variform Var](http://thehumbleprogrammer.com/the-variform-var/) ([code snippets](TheVariformVar))
 
 ## License
-*HumbleXamples* are neither licensed nor copyrighted. You can do whatever you want with them as long as you don't say you created them yourself ;-) In case of (re)use, providing a link to this GitHub repository would be highly appreciated, but it's not mandatory.
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](http://creativecommons.org/publicdomain/zero/1.0)
 
-<p align="center">
-    <a href="http://mimiandeunice.com/"><img src="without-copyright-law.png" alt="Mimi & Eunice - Without Copyright Law?" style="max-width:100%;"></a>
-</p>
+To the extent possible under law, Igor Rončević has waived all copyright and related or neighboring rights to this work.
+
+In case of (re)use, providing a link to this GitHub repository or related blog posts would be highly appreciated.
